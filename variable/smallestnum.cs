@@ -4,7 +4,7 @@ using System.Text;
 
 namespace variable
 {
-    internal class smallestnum
+    public class Smallestnum
     {
         static void Main()
         {

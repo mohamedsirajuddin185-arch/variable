@@ -4,7 +4,7 @@ namespace variable;
 
 public class Array
 {
-    static void Main ()
+    static void Main()
     {
         int[] numbers = { 10, 25, 7, 50, 32 , 44 , 66 , 100 };
         int max = numbers[0];

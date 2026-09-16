@@ -10,12 +10,12 @@ namespace variable
         {
             int r, i;
             Console.WriteLine("enter row size of array");
-            r = int.Parse(Console.ReadLine());
+            r = Convert.ToInt32(Console.ReadLine());
             int[] a = new int[r];
             Console.WriteLine("enter array elements");
             for (i = 0; i< r; i++)
             {
-                a[i] = int.Parse(Console.ReadLine());
+                a[i] = Convert.ToInt32(Console.ReadLine());
             }
             Console.WriteLine("entered array elements are");
             for (i = 0; i< r;i++)
