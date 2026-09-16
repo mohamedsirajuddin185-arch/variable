@@ -18,7 +18,9 @@ public class Array
         }
         Console.WriteLine("Largest number is: " + max);
 
-        //Smallest number 
+
+
+        //Smallest number -----git PR
         for (int i = 0; i < numbers.Length; i++)
         {
             if (numbers[i] < small)
@@ -26,7 +28,7 @@ public class Array
                 small = numbers[i];
             } 
         }
-        Console.WriteLine("Smallest Number is : " + small);
+        Console.WriteLine($"Smallest Number is : {small} ");
 
     }
 }
