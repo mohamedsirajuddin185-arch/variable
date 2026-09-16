@@ -19,7 +19,7 @@ public class Array
         Console.WriteLine("Largest number is: " + max);
 
         //Smallest number 
-        for (int i = 0; i < numbers.length; i++)
+        for (int i = 0; i < numbers.Length; i++)
         {
             if (numbers[i] < small)
             {
